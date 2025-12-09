@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
-  color: #2e2f42;
+  color: #434455;
 }
 
 ul {
@@ -17,8 +17,9 @@ a {
   text-decoration: underline;
 }
 
-.secondary-text-color {
-  color: #434455;
+h2,
+h3 {
+  color: #2e2f42;
 }
 
 .text-logo {
@@ -50,6 +51,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .header-address a {
@@ -81,6 +83,7 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -104,6 +107,9 @@ a:focus {
 
 .team-section {
   background-color: #f4f4fd;
+}
+.team-list-item {
+  background-color: #fff;
 }
 
 .team-section-header {
